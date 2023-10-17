@@ -9,7 +9,7 @@ abstract class Character {
     this.characterData = characterData;
   }
 
-  protected communicate() {
+  protected communicate(): string {
     return `${this.characterData.name} says: `;
   }
 
