@@ -1,12 +1,12 @@
-import type CharacterData from "../types/types";
+import type { CharacterData } from "../types/types";
 
 abstract class Character {
   protected isAlive: boolean;
   protected series: string;
-  private readonly characterData;
+  protected characterData;
 
-  constructor(characterData: CharacterData) {
-    this.characterData = characterData;
+  constructor(data: CharacterData) {
+    this.characterData = data;
   }
 
   protected communicate(): string {
