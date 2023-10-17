@@ -11,5 +11,5 @@
     "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,
     "sourceMap": true
   },
-  "include": ["src/**/*.ts"] /* adaptar en función de necesidades y nomvbres.*/
+  "include": ["src/**/*.ts"] /* adaptar en función de necesidades y nombres.*/
 }
