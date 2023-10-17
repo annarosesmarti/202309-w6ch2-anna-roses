@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
-    "start:dev": "node app/index.js -w"
+    "start:dev": "node app/index.js -w",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.1",
+    "prettier": "^3.0.3"
+  }
 }
