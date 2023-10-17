@@ -1,0 +1,14 @@
+{
+  "name": "w6-ch2-typescript-classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start:dev": "node app/index.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
