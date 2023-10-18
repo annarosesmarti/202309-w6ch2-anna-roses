@@ -2,6 +2,7 @@ import type Character from "./components/Character/Character";
 import type Fighter from "./components/Fighter/Fighter";
 
 export interface CharacterData {
+  id: number;
   name: string;
   family: string;
   age: number;
