@@ -7,6 +7,8 @@ abstract class Character {
 
   constructor(data: CharacterData) {
     this.characterData = data;
+    this.isAlive = true;
+    this.series = "Game of Thrones";
   }
 
   protected communicate(): string {
