@@ -1,5 +1,5 @@
 import Character from "../Character/Character";
-import { type FighterData } from "../types/types";
+import { type FighterData } from "../../types";
 
 class Fighter extends Character {
   weapon;
@@ -9,6 +9,24 @@ class Fighter extends Character {
     super(data);
     this.weapon = data.weapon;
     this.dexterity = data.dexterity;
+  }
+
+  protected communicate(): string {
+    return `${super.communicate()} First I hit and then I ask`;
+  }
+
+  protected filterDexterity(dexterity: number): number {
+    const minNumber = 0;
+    const maxNumber = 10;
+    if (dexterity < minNumber) {
+      return minNumber;
+    }
+
+    if (dexterity > maxNumber) {
+      return maxNumber;
+    }
+
+    return dexterity;
   }
 }
 
