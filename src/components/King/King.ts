@@ -1,5 +1,5 @@
 import Character from "../Character/Character";
-import type { KingData } from "../types/types";
+import type { KingData } from "../../types";
 
 class King extends Character {
   yearsOfReign;
