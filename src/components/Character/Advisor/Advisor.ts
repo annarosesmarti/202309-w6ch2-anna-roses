@@ -1,5 +1,5 @@
-import Character from "../Character";
-import { type AdvisorData } from "../../../types";
+import Character from "../Character.js";
+import { type AdvisorData } from "../../../types.js";
 
 class Advisor extends Character {
   advises;
